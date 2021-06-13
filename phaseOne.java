@@ -194,9 +194,9 @@ public static void main(String[] args) throws Exception{
 
         while(true){
                 System.out.println("   You Are in Main menu:      ");
-                System.out.println("   Press 1 for Show Files");
-                System.out.println("   Press 2 for Show File Option Menu");
-                System.out.println("   Press 3 for Quit");
+                System.out.println("    1 for Show Files");
+                System.out.println("    2 for Show File Option Menu");
+                System.out.println("    3 for Quit");
 
 
                 System.out.println("   Enter your choice : ");
@@ -210,10 +210,10 @@ public static void main(String[] args) throws Exception{
                                 break;
                       case 2: //System.out.println("2. Show File Option Menu");
                                 System.out.println("  Please Enter below cmd for Files Option :");
-                                System.out.println("  Press 1 for Create File");
-                                System.out.println("  Press 2 for Delete File");
-                                System.out.println("  Press 3 for Search File");
-                                System.out.println("  Press 4 to Return to Main Menu");
+                                System.out.println("  1 Create File");
+                                System.out.println("  2 Delete File");
+                                System.out.println("  3 Search File");
+                                System.out.println("  4 Return to Main Menu");
 
                                 int  choice2 = scan.nextInt();
 
@@ -239,7 +239,7 @@ public static void main(String[] args) throws Exception{
 
                                 break;
 
-                        case 3: System.out.println(" Press 3 to Quit the application ");
+                        case 3: System.out.println(" You Quit the application ");
                                 System.exit(0);
                                 break;
 
